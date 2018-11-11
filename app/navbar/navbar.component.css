@@ -1,0 +1,93 @@
+.nav_themes{
+    color:white;
+    height: 35px;
+    line-height: 35px;
+    background-color: #515155
+}
+
+
+.left_nav p{
+   padding: 0 0 0 20px;
+   cursor: pointer;
+}
+
+.right_nav p{
+  padding: 0 0 0 20px;
+  cursor: pointer;
+}
+
+/* Start media quary*/
+  
+@media (min-width: 100px) and (max-width: 319.9px){
+    .left_nav p{
+        padding: 0 0 0 5px;
+        font-size: 5px;
+     }
+
+     .right_nav p{
+        padding: 0 0 0 5px;
+        font-size: 5px;
+      }
+}
+
+@media (min-width: 320px) and (max-width: 425.9px){
+    .left_nav p{
+        padding: 0 0 0 3px;
+        font-size: 6px;
+     }
+
+     .right_nav p{
+        padding: 0 0 0 5px;
+        font-size: 6px;
+      }
+}
+
+@media (min-width: 426px) and (max-width: 520.9px){
+    .left_nav p{
+        padding: 0 0 0 5px;
+        font-size: 8px;
+     }
+
+     .right_nav p{
+        padding: 0 0 0 5px;
+        font-size: 8px;
+      }
+}
+
+@media (min-width: 521px) and (max-width: 620.9px){
+    .left_nav p{
+        padding: 0 0 0 5px;
+        font-size: 11px;
+     }
+
+     .right_nav p{
+        padding: 0 0 0 5px;
+        font-size: 11px;
+      }
+}
+
+@media (min-width: 621px) and (max-width: 767.9px){
+    .left_nav p{
+        padding: 0 0 0 5px;
+        font-size: 13px;
+     }
+
+     .right_nav p{
+        padding: 0 0 0 5px;
+        font-size: 13px;
+      }
+}
+
+@media (min-width: 768px){
+    .left_nav p{
+        padding: 0 0 0 15px;
+        font-size: 15px;
+     }
+
+     .right_nav p{
+        padding: 0 0 0 15px;
+        font-size: 15px;
+      }
+}
+
+/* end media quary */

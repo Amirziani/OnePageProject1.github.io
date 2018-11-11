@@ -1,0 +1,30 @@
+
+/* You can add global styles to this file, and also import other style files */
+
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+body{
+    margin: 0px;
+}
+
+/* start my fram work */
+.float_left{
+    float: left
+}
+
+.float_right{
+    float: right;
+}
+
+.clear_fix{
+    clear: both;
+}
+
+.text_center{
+    text-align: center;
+}
+/* end my fram work */

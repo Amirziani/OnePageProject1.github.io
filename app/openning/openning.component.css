@@ -1,0 +1,92 @@
+
+
+#btnweb {
+    font-family: 'Advent Pro', sans-serif;
+}
+
+.website{ width: 100%;
+    height: 760px;
+    background:url('http://keystonechurch.co.za/wp-content/uploads/2015/02/welcome-backgrounds-for-church-services1.jpg') no-repeat fixed blueviolet; 
+    background-size: cover;
+   
+}
+.btn22 a{ 
+color: #ffffff;
+}
+.website .box{ 
+    background-color:black;
+    width: 300px; 
+    height: 760px;
+    border-left: 2px solid gold;
+    float: right;
+    position: relative;
+    opacity: 0.7;
+}
+.website .box .logo{
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto; 
+    opacity: 1;
+    position: relative;
+    top: 100px;
+    background-image: url('../../favicon.ico')
+}
+.website .box button{
+   width: 100%;
+   position: relative;
+   top: 265px;
+   margin-top: 20px;
+
+  
+  
+}
+#c_name{
+    position: relative;
+   top: 5px;
+}
+.website .box h4,h6{
+    text-align: center;
+    position: relative;
+    top: 400px;
+    color: gold;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-family: 'Times New Roman', Times, serif ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  
+   
+}
+#inputGroup-sizing-default{
+    background-color: #000000;
+    font-weight: bold;
+    color: grey;
+}
+#p_name_2{
+    width: 70px;
+}
+.inp{ position: relative;
+    top: 35px;
+    position: relative;
+   top: 100px;
+       
+}
+#dropdownc{
+    display: none;
+}
+#list{
+   margin-left: 45px;
+   appearance: none;
+}
+.fas{
+    margin-right: 5px;
+}
+#langsel{
+    margin-left: 45px;
+    appearance: none;
+ }
+ .amir{
+     margin-top: 10px;
+ }

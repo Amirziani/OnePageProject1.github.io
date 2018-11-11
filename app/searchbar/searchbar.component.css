@@ -1,0 +1,152 @@
+
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+}
+
+.navbar{ 
+    width:100%;
+    margin-left:auto;
+    margin-right: auto; 
+    float: right;
+}
+.navbar-light{
+    width: 470px;
+    height: 35px;
+    float: left;
+    margin-left: 26.3%;
+    
+}
+.btn{
+    width: 70px;
+    border: solid 1px black;
+    color: black;
+    border-radius: 5px 0px 0px 5px;
+    float: left;
+    
+}
+.form-control{
+    margin-left:38px;
+    width:335px;
+  
+}
+.btn2{
+    width: 70px;
+    border: solid 1px black;
+    color: white;
+    background-color: black;
+    border-radius: 0px 5px 5px 0px;
+    float: right;
+    position: relative;
+    bottom: 38px;
+    right: 6px;
+   
+    
+    
+    
+    
+}
+.btn2:hover{
+    color:blue !important;
+   
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.uk-dropdown ul li a{
+color: black; 
+}
+.uk-dropdown ul li a:hover{
+    color: blue ; 
+font-weight: bold;
+    }
+   
+   
+    .icon{
+        border-radius: 100%;
+        float: left;
+        margin: 5px;
+        font-size: 35px;
+        
+
+    }
+    .icon a{ 
+        color: black;
+    }
+    .icon a:hover{
+        color:blue;
+    }
+    .btn3{
+        width: 100px;
+        height: 25px;
+        background-color: black;
+        margin: 20px;
+        border-radius: 5px;
+    }
+
+    @media (max-width:984px){
+        .sidemenu{
+            margin-right: auto;
+            margin-left: auto;
+        }
+        .navbar-light{
+            margin-right: auto;
+            margin-left: auto;
+        }
+        
+        
+    }
+    @media (max-width:577px){
+        .sidemenu{
+            margin-right: auto;
+            margin-left: auto;
+        }
+        .form-control{
+            margin-left:38px;
+            width:235px;
+            margin-top: 8px;
+          
+        }
+        .btn2{
+            position: relative;
+            right: 95px;
+            bottom: 46px;        }
+         
+        
+    }
+    @media  (min-width:319px )and (max-width:577px) {
+
+        .sidemenu{
+            margin-right: auto;
+            margin-left: auto;
+        }
+        .form-control{
+            margin-left: 38px;
+            width: 70%;
+            margin-top: 8px;
+            height: 31px;
+          
+        }
+        .btn{
+            width: 15%;
+            height: 31px;
+            font-size:10px;
+        }
+       
+        .btn2{
+            position: relative;
+              right: 10px;
+            bottom: 39px;
+            width: 15%;       }
+        
+             .btn3{ 
+                 width: 66px;
+             }
+
+    }

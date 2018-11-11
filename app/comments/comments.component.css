@@ -1,0 +1,278 @@
+.comment_holder{
+    height: 450px;
+    margin-top: 40px;
+}
+#Deal-Description{
+    color: #2d2d2d;
+}
+#Deal-Description:hover{
+    background-color: #2d2d2d;
+    color: white;
+    border-radius: 5px 5px 0px 0px;
+}
+#comment{
+    color: #2d2d2d;
+    
+}
+#comment:hover{
+    background-color: #2d2d2d;
+    color: white;
+    border-radius: 5px 5px 0px 0px;
+    
+}
+hr{
+    margin: 0px;
+}
+#review{
+    color: #2d2d2d;
+   
+}
+#review:hover{
+    background-color: #2d2d2d;
+    color: white;
+    border-radius: 5px 5px 0px 0px;
+    
+}
+
+.deal_list{
+    position: relative;
+    right:25px;
+    padding: 0px;
+}
+.Deal_list li{
+    position: relative;
+    left:20px;
+   
+}
+
+
+
+
+
+
+
+
+
+.fa-star{
+    font-size: 50px;
+}
+.fa-star:hover{
+    
+    color: gold;
+}
+
+
+.suggest{
+    font-size: 15px;
+    margin:0px ; 
+}
+.related{
+    font-size: 9px;
+    margin:0px ; 
+}
+.index{ 
+    height: 375px;
+    width: 275px;
+    margin-top: 10px;
+    margin-left: -3px;
+   }
+   .index .pictureindex{ 
+     height: 75px;
+     border: 2px solid black ;
+     padding: 1px;
+     background:no-repeat center url('https://cdn-images-1.medium.com/max/1024/1*p97BugR0XeVxY__7CqL9fA.png');
+    background-size: cover;
+    margin: 5px;
+   }
+   .index .pictureindex:hover{
+    border: 5px solid gold ;
+
+   }
+   .sharta{
+       margin-top: 8px;
+       margin-left: -2px;
+       color: #c5c5c5;
+
+   }
+
+   #addnews{
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+}
+
+   #writecomment { 
+   
+    
+       text-align: center;
+       font-weight: bold;
+       text-decoration: #2d2d2d;
+       
+       color: black;
+
+   }
+/* start media quary */
+
+@media (min-width: 320px) and (max-width: 374.9px)
+{
+
+    .responContainer{
+        visibility: hidden;
+    }
+
+    .comment_holder{
+        height: 0px;
+        margin-top: 40px;
+        margin-left: 9%;
+    }
+    .nav{
+        width: 112%;
+        margin-left: -13%;
+    }
+    #Deal-Description{
+        font-size: 9px;
+        margin-top: 7%;
+    }
+    #comment{
+        font-size: 8px;
+        margin-top: 10%;
+    }
+    #review
+    {
+        font-size: 9px;
+        margin-top: 12%;
+    }
+    hr{
+        margin-left: -6%;
+        width: 100%;
+    }
+    .Deal_list{
+        margin-left: -15%;
+    }
+    .Deal_list p{
+        font-size: 12px;
+    }
+    .fa-star{
+        font-size: 35px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 424.9px)
+{
+
+    .responContainer{
+        visibility: hidden;
+    }
+
+    .comment_holder{
+        height: 0px;
+        margin-top: 40px;
+        margin-left: 9%;
+    }
+    .nav{
+        width: 112%;
+        margin-left: -13%;
+    }
+    #Deal-Description{
+        font-size: 10px;
+        margin-top: 7%;
+    }
+    #comment{
+        font-size: 10px;
+        margin-top: 10%;
+    }
+    #review
+    {
+        font-size: 10px;
+        margin-top: 12%;
+    }
+    hr{
+        margin-left: -8%;
+        width: 100%;
+    }
+    .Deal_list{
+        margin-left: -15%;
+    }
+    .Deal_list p{
+        font-size: 13px;
+    }
+    .fa-star{
+        font-size: 35px;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 767.9px)
+{
+    .responContainer{
+        visibility: hidden;
+    }
+
+    .comment_holder{
+        height: 0px;
+        margin-top: 40px;
+        margin-left: 9%;
+    }
+    .nav{
+        width: 112%;
+        margin-left: -13%;
+    }
+    #Deal-Description{
+        font-size: 11px;
+        margin-top: 5%;
+    }
+    #comment{
+        font-size: 11px;
+        margin-top: 7%;
+    }
+    #review
+    {
+        font-size: 11px;
+        margin-top: 8%;
+    }
+    hr{
+        margin-left: -9%;
+        width: 100%;
+    }
+    .Deal_list{
+        margin-left: -15%;
+    }
+    .Deal_list p{
+        font-size: 14px;
+    }
+    .fa-star{
+        font-size: 35px;
+    }
+
+} 
+
+@media (min-width: 768px) and (max-width: 933px) 
+{
+   
+    .responContainer
+    {
+        margin-left: -56%;
+        margin-top: 19%;
+    }
+    hr{
+        width: 85%;
+    }
+}
+
+@media (min-width: 934px) and (max-width:1024px)
+{
+   
+    .responContainer
+    {
+        margin-top: 11%;
+    }
+
+    .index{ 
+        height: 375px;
+        width: 275px;
+        margin-top: 10px;
+        margin-left: -18px;
+       }
+  
+}
+
+/* end media quary */

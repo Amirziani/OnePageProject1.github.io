@@ -1,0 +1,382 @@
+.big_div{
+    height: 220px;
+    margin-top: 20px;
+    -webkit-box-shadow: 0px -10px 10px -3px rgba(0,0,0,0.28);
+    -moz-box-shadow: 0px -10px 10px -3px rgba(0,0,0,0.28);
+    box-shadow: 0px -10px 10px -3px rgba(0,0,0,0.28);
+    max-width: 100% !important;
+}
+.test1{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.left{
+    width: 300px;
+    margin: auto;
+    margin-top:55px;
+}
+.head{
+    font-weight: bold;
+    font-size: 10px;
+}
+.body{
+    color:#9b9b9b;
+    font-size: 10px;
+}
+.left .icones{
+   letter-spacing: 25px;
+   font-size: 15px;
+}
+.left .icones .fab:hover{
+    color: blue;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+
+.test2{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100% ; 
+width: 100% !important;
+}
+.middle{
+    width: 300px;
+    margin: auto;
+    margin-top:55px;
+}
+
+.middle #ul_left{
+float: left;
+margin-top: -10px;
+margin-left: -30px;
+line-height: 25px;
+}
+.middle #ul_right{
+    float: left;
+    margin-top: -10px;
+    margin-left: 60px;
+    line-height: 25px;
+}
+.middle ul li{
+    list-style: none;
+}
+.middle ul li a{
+   text-decoration: none;
+    }
+    .middle ul li i{
+        font-size: 10px;
+        letter-spacing: 10px;
+         }
+
+
+.test3{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.right{
+    width: 200px;
+    margin: auto;
+    margin-top:55px;
+}
+.right .apps{
+ color:#676769 ;
+ font-size: 40px;
+ letter-spacing: 20px;
+ margin-top: -10px;
+}
+   .right .apps .fab:hover{
+    color: green;
+    cursor: pointer;
+   }
+   .right .apps .fa-apple:hover{
+    cursor: pointer;
+   }
+
+.copyright {
+    background-color: #636363;
+    height: 85px;
+}
+
+.copyright .content {
+    font-size: 12px;
+    color: white;
+    text-align: center;
+   background-color: red;
+}
+
+.flag{
+    border-left: solid 1px #939393;
+    font-size: 10px;
+    color: #008e45;
+    margin-top: 5px;
+    padding-left: 20px;
+    float: left;
+    margin-right: 13px;
+}
+
+.clock{
+    font-size: 10px;
+    color: #939393;
+    margin-top: 5px;
+}
+.star_nav{
+    width: 63%;
+    margin-left: 37%;
+}
+.divall{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+  
+}
+#copy{
+    margin: 2px;
+    margin-top: 9px;
+}
+.flagclock{
+    width: 36%;
+    margin-left: 10%;
+}
+#klam , #klam2 , #klam3{
+    color: white;
+    font-size: 12px;
+}
+
+/*  start media quary*/
+
+
+
+@media (min-width: 320px) and (max-width: 374.9px)
+{
+    .big_div{
+        height: 560px;
+    }
+    .test1{
+        float: none !important; 
+        position: relative;
+        left: 22%;
+        
+    }
+    
+    .test2{
+        max-width: 100% ; 
+        width: 100% !important;
+    }
+    .left{
+        position: relative;
+        right: 140%;
+        width: 151px;
+    }
+    .divall{
+        margin-top: 7%;
+        position: relative;
+        right: 2%;
+    }
+
+    #klam{
+        font-size: 8px;
+        position: relative;
+        right: 18%;
+    }
+    .flagclock{
+        width: 100%;
+        margin-left: -19%;
+    }
+    #klam2 , #klam3{
+        font-size: 8px;
+    }
+    .flag{
+        border: none;
+    }
+
+}
+
+
+@media (min-width: 375px) and (max-width: 470.9px)
+{
+    .test1{
+        position: relative;
+        left: 31%;
+        
+    }
+    .left{
+        width: 252px;
+        position: relative;
+        right: 140%;
+        
+    }
+    .divall{
+        margin-top: 6%;
+    }
+
+    #klam{
+        font-size: 9px;
+        position: relative;
+        right: 18%;
+    }
+    .flagclock{
+        width: 100%;
+        margin-left: -16%;
+    }
+    #klam2 , #klam3{
+        font-size: 9px;
+    }
+    .flag{
+        border: none;
+    }
+    .copyright{
+        margin-top: 70%;
+    }
+}
+
+@media (min-width: 471px) and (max-width: 559.9px)
+{
+    .test1{
+        float: none !important; 
+        position: relative;
+        left: 33%;
+        
+    }
+    .left{
+        position: relative;
+        right: 122%;
+       
+    }
+    .divall{
+        margin-top: 5%;
+    }
+    .star_nav{
+        margin-left: 33%;
+    }
+
+    #klam{
+        font-size: 10px;
+        position: relative;
+        right: 5%;
+    }
+    .flagclock{
+        width: 100%;
+        margin-left: -4%;
+    }
+    #klam2 , #klam3{
+        font-size:10px;
+    }
+    .flag{
+        border: none;
+    }
+    
+}
+
+@media (min-width: 560px) and (max-width: 650.9px)
+{
+    .left{
+        position: relative;
+        right: 8%;
+    
+    }
+    .star_nav{
+        width: 95%;
+        margin-left: 5%;
+    }
+    .flagclock{
+        width: 36%;
+        margin-left: 10%;
+    }
+}
+
+@media (min-width: 651px) and (max-width: 767.9px)
+{
+    .left{
+        position: relative;
+        left: 0%;
+    
+    }
+    .star_nav{
+        width: 78%;
+        margin-left: 14%;
+    }
+
+    .flagclock{
+        width: 36%;
+        margin-left: 10%;
+    }
+
+    .copyright{
+        margin-top: 65%;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 929.9px)
+{
+    .left{
+        position: relative ;
+        left: 20% ;
+       
+    
+    }
+    .test2{
+        position: relative;
+        right: 0%;
+
+    }
+    .star_nav{
+        width: 78%;
+        margin-left: 20%;
+    }
+
+    .flagclock{
+        width: 36%;
+        margin-left: 10%;
+    }
+
+    .copyright{
+        margin-top: 16%;
+    }
+    
+}
+
+@media (min-width: 930px) and (max-width:999.9px) 
+{
+    .left{
+        position: relative;
+        left: 35%;
+    
+    }
+    .test1{
+        margin-left: -4%;
+    }
+    .test2{
+        position: relative;
+        left: 3%;
+
+    }
+    .star_nav{
+        width: 78%;
+        margin-left: 23%;
+    }
+
+    .flagclock{
+        width: 36%;
+        margin-left: 10%;
+    }
+   
+}
+
+@media (min-width:1000px)
+{
+    .left{
+        position: relative;
+        left: 25%;
+    
+    }
+
+
+
+}
+
+/*  end media quary*/
